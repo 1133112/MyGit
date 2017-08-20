@@ -9,7 +9,7 @@ public class Log4jTest
 
 	static Logger logger = LogManager.getLogger(Log4jTest.class.getName());
 
-	public static boolean hello()  
+	public static boolean hello()     
 	{
 		logger.entry(); // trace级别的信息，单独列出来是希望你在某个方法或者程序逻辑开始的时候调用，和logger.trace("entry")基本一个意思
 		logger.error("Did it again!"); // error级别的信息，参数就是你输出的信息
