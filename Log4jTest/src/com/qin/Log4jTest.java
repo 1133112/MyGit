@@ -3,8 +3,6 @@ package com.qin;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.apache.logging.log4j.core.config.properties.PropertiesConfiguration;
-import org.apache.logging.log4j.util.PropertiesUtil;
 
 public class Log4jTest
 {
