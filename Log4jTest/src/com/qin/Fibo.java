@@ -6,7 +6,10 @@ public class Fibo
 	public static void main(String[] args)
 	{
 		// TODO Auto-generated method stub
-		System.out.println(fibonacci(5));
+		System.out.println(fibonacci(7));
+		System.out.println("第一个参数是："+args[0]);
+		System.out.println("第二个参数是："+args[1]);
+		System.out.println("第三个参数是："+args[2]);
 
 	}
 	public static int fibonacci(int n) {
