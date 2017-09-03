@@ -11,7 +11,7 @@ public class Zhihuan
 	{
 		// TODO Auto-generated method stub
 		System.out.println(Permutation1("abc", "cba"));
-		System.out.println(Permutation1("aabc", "bcad"));
+		System.out.println(Permutation1("aabc", "bcad")); 
 		;
 
 	}
